@@ -330,6 +330,70 @@ b{
   }
 }
 
+
+/*Education section*/
+/* Education.css */
+
+/* Education.css */
+
+/* Education.css */
+
+.Education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #031926;
+  color: #E7E7E7;
+  padding: 50px;
+  text-align: center; /* Center align text */
+}
+
+.EducationHeading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #274656;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #9067C6;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  font-size: 16px;
+  color: #E7E7E7;
+}
+
+.section:hover {
+  transform: translateY(-5px); /* Move section up on hover */
+}
+
+.year {
+  font-style: italic;
+  color: #c2c1c2;
+  margin-top: 10px;
+}
+
+
+
+
+
 /* Skills section */
 .skills{
   display: flex;
@@ -384,7 +448,7 @@ b{
 
 /* Project */
 
-.projectHeading{
+/*.projectHeading{
   text-align: center;
   padding: 75px 0;
   letter-spacing: 0.4px;
@@ -437,7 +501,75 @@ b{
   cursor:pointer;
   text-decoration: none;
   border-style: none;
+}*/
+
+/* Projects.css */
+
+/* Projects.css */
+
+/* Projects.css */
+
+.projects {
+  padding: 50px;
+  background-color: #031926;
+  color: #E7E7E7;
+  text-align: center;
+  min-height: 100vh; /* Ensure section takes up at least full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
 }
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.project {
+  width: 30%;
+  min-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  background-color: #274656;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.year {
+  font-style: italic;
+  color: #c2c1c2;
+  margin-bottom: 10px;
+}
+
+.project-details h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #9067C6;
+  margin-bottom: 10px;
+}
+
+.project-details p {
+  font-size: 16px;
+  color: #E7E7E7;
+  line-height: 1.5;
+}
+
+
+
 
 
 /* Resume */
