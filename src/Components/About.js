@@ -1,5 +1,4 @@
 import React from 'react';
-import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react"
 import Coder from '../LottieFiles/coder.json';
