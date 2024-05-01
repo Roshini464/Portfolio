@@ -1,7 +1,7 @@
 import React from 'react';
-import Tilt from 'react-parallax-tilt';
-import Lottie from "lottie-react"
-import Coder from '../LottieFiles/coder.json';
+//import Tilt from 'react-parallax-tilt';
+//import Lottie from "lottie-react"
+//import Coder from '../LottieFiles/coder.json';
 
 const About = () => {
   return (
