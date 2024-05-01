@@ -18,15 +18,6 @@ const About = () => {
           </p>
         </div>
 
-        <div>
-          <Tilt>
-              <Lottie 
-              className="illustration" 
-              animationData={Coder} 
-              loop={true} 
-            />
-          </Tilt>
-        </div>
 
       </div>
       
