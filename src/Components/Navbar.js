@@ -55,7 +55,6 @@ const Nav = () => {
             <li onClick={hideMenu}><Link to="/About"><BsPerson/> About</Link></li>
             <li onClick={hideMenu}><Link to="/Education"><BsPerson/> Education</Link></li>
             <li onClick={hideMenu}><Link to="/Project"><BsCodeSlash/> Project</Link></li>
-            <li onClick={hideMenu}><Link to="/Resume"><CgFileDocument/> Contact</Link></li>
         </ul>
         
     </nav>
