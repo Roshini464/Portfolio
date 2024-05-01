@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {AiOutlineHome} from "react-icons/ai";
 import {BsPerson, BsCodeSlash} from "react-icons/bs";
-import {CgFileDocument} from "react-icons/cg";
+//import {CgFileDocument} from "react-icons/cg";
 
 
 const Nav = () => {
